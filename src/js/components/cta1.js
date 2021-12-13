@@ -1,5 +1,5 @@
-import '../assets/css/style.css'
-import '../css/cta1.css'
+import '../../assets/css/style.css'
+import '../../css/cta1.css'
 
 export const formHome = () =>{
     const cta1 = document.createElement('section');
@@ -8,24 +8,26 @@ export const formHome = () =>{
         <div id="form01" class="container">
         <div class="row no-gutters">
             <div class="col-md-3 color-1 p-4">
-                <h3 class="mb-4">Emergency Cases</h3>
+                <h3 class="mb-4">Urgencias</h3>
                 <p>A small river named Duden flows by their place and supplies</p>
                 <span class="phone-number">+ (123) 456 7890</span>
             </div>
             <div class="col-md-3 color-2 p-4">
-                <h3 class="mb-4">Opening Hours</h3>
-                <p class="openinghours d-flex">
-                    <span>Monday - Friday</span>
-                    <span>8:00 - 19:00</span>
-                </p>
-                <p class="openinghours d-flex">
-                    <span>Saturday</span>
-                    <span>10:00 - 17:00</span>
-                </p>
-                <p class="openinghours d-flex">
-                    <span>Sunday</span>
-                    <span>10:00 - 16:00</span>
-                </p>
+                <h3 class="mb-4">Horarios</h3>
+                <div id="horarios">
+                    <p class="openinghours d-flex">
+                        <span>Monday - Friday</span>
+                        <span>8:00 - 19:00</span>
+                    </p>
+                    <p class="openinghours d-flex">
+                        <span>Saturday</span>
+                        <span>10:00 - 17:00</span>
+                    </p>
+                    <p class="openinghours d-flex">
+                        <span>Sunday</span>
+                        <span>10:00 - 16:00</span>
+                    </p>
+                </div>
             </div>
             <div class="col-md-6 color-3 p-4">
                 <h3 class="mb-2">Make an Appointment</h3>
